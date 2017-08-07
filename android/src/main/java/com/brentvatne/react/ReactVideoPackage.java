@@ -18,7 +18,7 @@ public class ReactVideoPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // DEPRECATED RN 0.46+
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
